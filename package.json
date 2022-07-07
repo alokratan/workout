@@ -1,9 +1,12 @@
 {
   "name": "workout",
+  "homepage": "https://alokratan.github.io/workout/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "predeploy": "npm run build",
+   "deploy": "gh-pages -d build",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
@@ -11,6 +14,7 @@
   "dependencies": {
     "bootstrap": "^5.1.3",
     "bootstrap-icons": "^1.8.3",
+    "gh-pages": "^4.0.0",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
