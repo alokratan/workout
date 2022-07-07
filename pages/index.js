@@ -19,10 +19,10 @@ export default function Home() {
 <div className={style.menu}>
   <ul>
     <li>
-      <a href='/'><i class="bi bi-camera-reels-fill"></i>LIVE</a></li>
-    <li><a href='/'><i class="bi bi-postcard-fill"></i>MEMBERSHIP</a></li>
-    <li><a href='/'><i class="bi bi-clipboard-data-fill"></i>PLANS</a></li>
-    <li><a href='/'><i class="bi bi-grid-fill"></i>MORE</a></li>
+      <a href='/'><i className="bi bi-camera-reels-fill"></i>LIVE</a></li>
+    <li><a href='/'><i className="bi bi-postcard-fill"></i>MEMBERSHIP</a></li>
+    <li><a href='/'><i className="bi bi-clipboard-data-fill"></i>PLANS</a></li>
+    <li><a href='/'><i className="bi bi-grid-fill"></i>MORE</a></li>
   </ul>
 </div>
 <div className={style.login}><p><i class="bi bi-person-fill"></i>Login</p></div>
